@@ -56,3 +56,6 @@ def create_file(file_path):
         f.write('')
 def delete_file(file_path):
     os.remove(file_path)
+
+def move_file(src_path, dst_path):
+    shutil.move(src_path, dst_path)
