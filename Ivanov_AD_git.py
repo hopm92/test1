@@ -65,3 +65,6 @@ def copy_file(src_path, dst_path):
 
 def create_folder(folder_path):
     os.mkdit(folder_path)
+
+def delete_folder(folder_path):
+    shutil.rmtree(folder_path)
