@@ -59,3 +59,6 @@ def delete_file(file_path):
 
 def move_file(src_path, dst_path):
     shutil.move(src_path, dst_path)
+
+def copy_file(src_path, dst_path):
+    shutil.copy(src_path, dst_path)
