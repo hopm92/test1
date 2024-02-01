@@ -29,3 +29,6 @@ def main():
             src_path = input('Укажите путь к файлу: ')
             dst_path = input('Укажите новый путь к файлу: ')
             copy_file(src_path, dst_path)
+        elif choice == '5':
+            folder_path = input('Укажите путь: ')
+            create_folder(folder_path)
