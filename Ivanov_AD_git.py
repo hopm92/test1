@@ -32,3 +32,6 @@ def main():
         elif choice == '5':
             folder_path = input('Укажите путь: ')
             create_folder(folder_path)
+        elif choice == '6':
+            folder_path = input('Укажите путь к папке: ')
+            delete_folder(folder_path)
