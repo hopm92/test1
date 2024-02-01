@@ -39,3 +39,7 @@ def main():
             src_path = input('Укажите путь к папке: ')
             dst_path = input('Укажите новый путь: ')
             move_folder(src_path, dst_path)
+        elif choice == '8':
+            src_path = input('Укажите путь к папке: ')
+            dst_path = input('Укажите новый путь: ')
+            copy_folder(src_path, dst_path)
