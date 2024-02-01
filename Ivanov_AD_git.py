@@ -47,3 +47,9 @@ def main():
             break
         else:
             print('Нет такой команды')
+
+if __name__ == '__main__':
+    main()
+
+def delete_file(file_path):
+    os.remove(file_path)
