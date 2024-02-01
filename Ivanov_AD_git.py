@@ -35,3 +35,7 @@ def main():
         elif choice == '6':
             folder_path = input('Укажите путь к папке: ')
             delete_folder(folder_path)
+        elif choice == '7':
+            src_path = input('Укажите путь к папке: ')
+            dst_path = input('Укажите новый путь: ')
+            move_folder(src_path, dst_path)
