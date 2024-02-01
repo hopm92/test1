@@ -62,3 +62,6 @@ def move_file(src_path, dst_path):
 
 def copy_file(src_path, dst_path):
     shutil.copy(src_path, dst_path)
+
+def create_folder(folder_path):
+    os.mkdit(folder_path)
