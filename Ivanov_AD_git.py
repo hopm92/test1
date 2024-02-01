@@ -51,5 +51,8 @@ def main():
 if __name__ == '__main__':
     main()
 
+def create_file(file_path):
+    with open(file_path, 'w') as f:
+        f.write('')
 def delete_file(file_path):
     os.remove(file_path)
