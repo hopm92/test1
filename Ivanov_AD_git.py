@@ -68,3 +68,6 @@ def create_folder(folder_path):
 
 def delete_folder(folder_path):
     shutil.rmtree(folder_path)
+
+def move_folder(src_path, dst_path):
+    shutil.move(src_path, dst_path)
