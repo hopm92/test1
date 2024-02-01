@@ -18,10 +18,14 @@ def main():
         if choice == '1':
             file_path = input('Укажите путь: ')
             create_file(file_path)
-        if choice == '2':
+        elif choice == '2':
             file_path = input('Укажите путь к файлу: ')
             delete_file(file_path)
-        if choice == '3':
+        elif choice == '3':
             src_path = input('Укажите путь к файлу: ')
             dst_path = input('Введите новый путь:  ')
             move_file(src_path, dst_path)
+        elif choice == '4':
+            src_path = input('Укажите путь к файлу: ')
+            dst_path = input('Укажите новый путь к файлу: ')
+            copy_file(src_path, dst_path)
