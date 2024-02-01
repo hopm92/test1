@@ -17,4 +17,7 @@ def main():
         choice = input('Введите номер команды: ')
         if choice == '1':
             file_path = input('Укажите путь к файлу: ')
+            create_file(file_path)
+        if choice == '2':
+            file_path = input('Укажите путь к файлу: ')
             delete_file(file_path)
