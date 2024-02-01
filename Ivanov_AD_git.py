@@ -71,3 +71,6 @@ def delete_folder(folder_path):
 
 def move_folder(src_path, dst_path):
     shutil.move(src_path, dst_path)
+
+def copy_folder(src_path, dst_path):
+    shutil.copytree(src_path, dst_path)
